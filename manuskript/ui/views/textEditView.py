@@ -21,7 +21,7 @@ except ImportError:
 
 
 class textEditView(QTextEdit):
-    def __init__(self, parent=None, index=None, html=None, spellcheck=True,
+    def __init__(self, parent=None, index=None, html=None, spellcheck=None,
                  highlighting=False, dict="", autoResize=False):
         QTextEdit.__init__(self, parent)
         self._column = Outline.text
@@ -38,6 +38,9 @@ class textEditView(QTextEdit):
         self._fromTheme = False
         self._themeData = None
         self._highlighterClass = BasicHighlighter
+
+        if spellcheck is None:
+            spellcheck = settings.spellcheck
 
         self.spellcheck = spellcheck
         self.currentDict = dict if dict else settings.dict
@@ -162,7 +165,7 @@ class textEditView(QTextEdit):
                 self.setEnabled(True)
                 if i.column() != self._column:
                     i = i.sibling(i.row(), self._column)
-                self._indexes.append(QPersistentModelIndex(i))
+                self._indexes.append(QModelIndex(i))
 
                 if not self._model:
                     self.setModel(i.model())
@@ -470,7 +473,7 @@ class textEditView(QTextEdit):
 
         # Check if the selected word is misspelled and offer spelling
         # suggestions if it is.
-        if cursor.hasSelection():
+        if self._dict and cursor.hasSelection():
             text = str(cursor.selectedText())
             valid = self._dict.check(text)
             selectedWord = cursor.selectedText()

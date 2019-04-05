@@ -5,12 +5,12 @@
     <message>
         <location filename="../manuskript/exporter/manuskript/HTML.py" line="18"/>
         <source>Basic HTML output using the Python module &apos;markdown&apos;.</source>
-        <translation type="unfinished">Простая HTML разметка с использованием python модуля &apos;markdown&apos;.</translation>
+        <translation>Базовый вывод HTML с использованием Python модуля &apos;markdown&apos;.</translation>
     </message>
     <message>
         <location filename="../manuskript/exporter/manuskript/HTML.py" line="19"/>
         <source>Python module &apos;markdown&apos;.</source>
-        <translation type="unfinished">python модуль &apos;markdown&apos;.</translation>
+        <translation>Python модуль &apos;markdown&apos;.</translation>
     </message>
     <message>
         <location filename="../manuskript/exporter/manuskript/HTML.py" line="53"/>
@@ -43,11 +43,6 @@
         <translation>Обычный текст</translation>
     </message>
     <message>
-        <location filename="../manuskript/exporter/manuskript/plainText.py" line="63"/>
-        <source>Chose output file...</source>
-        <translation>Выбрать файл на выход...</translation>
-    </message>
-    <message>
         <location filename="../manuskript/exporter/pandoc/HTML.py" line="13"/>
         <source>A little known format modestly used. You know, web sites for example.</source>
         <translation>Мало известный формат, практически не используется. Вы знаете, для веб-сайтов на пример.</translation>
@@ -55,7 +50,7 @@
     <message>
         <location filename="../manuskript/exporter/pandoc/PDF.py" line="18"/>
         <source>Needs LaTeX to be installed.</source>
-        <translation type="unfinished">Необходим установленный редактор latex.</translation>
+        <translation>Необходим установленный редактор LaTeX.</translation>
     </message>
     <message>
         <location filename="../manuskript/converters/pandocConverter.py" line="75"/>
@@ -63,77 +58,77 @@
         <translation>Ошибка</translation>
     </message>
     <message>
-        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="86"/>
+        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="96"/>
         <source>Standalone document (not just a fragment)</source>
         <translation>Отдельный документ (а не фрагмент)</translation>
     </message>
     <message>
-        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="89"/>
+        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="99"/>
         <source>Include a table of contents.</source>
         <translation>Включить оглавление.</translation>
     </message>
     <message>
-        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="92"/>
+        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="102"/>
         <source>Number of sections level to include in TOC: </source>
         <translation>Число уровней разделов для включения в оглавление: </translation>
     </message>
     <message>
-        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="95"/>
+        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="106"/>
         <source>Typographically correct output</source>
         <translation>Типографически правильный вывод</translation>
     </message>
     <message>
-        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="97"/>
+        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="109"/>
         <source>Normalize the document (cleaner)</source>
         <translation>Нормализовать документа (чистильщик)</translation>
     </message>
     <message>
-        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="99"/>
+        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="111"/>
         <source>Specify the base level for headers: </source>
         <translation>Укажите базовый уровень для заголовков: </translation>
     </message>
     <message>
-        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="106"/>
+        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="118"/>
         <source>Use reference-style links instead of inline links</source>
         <translation>Использовать прямые ссылку в виде ссылки, а не встроенные ссылки</translation>
     </message>
     <message>
-        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="108"/>
+        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="120"/>
         <source>Use ATX-style headers</source>
         <translation>Использование ATX-стиль заголовков</translation>
     </message>
     <message>
-        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="110"/>
+        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="122"/>
         <source>Self-contained HTML files, with no dependencies</source>
-        <translation type="unfinished">Автономные HTML-файлы, без каких-либо зависимостей</translation>
+        <translation>Автономные HTML файлы, без каких-либо зависимостей</translation>
     </message>
     <message>
-        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="112"/>
+        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="124"/>
         <source>Use &lt;q&gt; tags for quotes in HTML</source>
         <translation>Используйте теги &lt;q&gt; для цитат в HTML</translation>
     </message>
     <message>
-        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="114"/>
+        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="131"/>
         <source>LaTeX engine used to produce the PDF.</source>
         <translation>LaTeX использован для создания PDF.</translation>
     </message>
     <message>
-        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="124"/>
+        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="141"/>
         <source>Paper size:</source>
         <translation>Размер бумаги:</translation>
     </message>
     <message>
-        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="127"/>
+        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="144"/>
         <source>Font size:</source>
         <translation>Размер шрифта:</translation>
     </message>
     <message>
-        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="130"/>
+        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="147"/>
         <source>Class:</source>
         <translation>Класс:</translation>
     </message>
     <message>
-        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="133"/>
+        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="150"/>
         <source>Line spacing:</source>
         <translation>Междустрочный интервал:</translation>
     </message>
@@ -155,7 +150,7 @@
     <message>
         <location filename="../manuskript/exporter/pandoc/plainText.py" line="21"/>
         <source>reStructuredText is a lightweight markup language.</source>
-        <translation type="unfinished">reStructuredText — это легкий язык разметки...</translation>
+        <translation>reStructuredText это легкий язык разметки.</translation>
     </message>
     <message>
         <location filename="../manuskript/exporter/manuskript/markdown.py" line="14"/>
@@ -177,17 +172,17 @@
     formats.&lt;/p&gt;
     &lt;p&gt;Website: &lt;a href=&quot;http://www.pandoc.org&quot;&gt;http://pandoc.org/&lt;/a&gt;&lt;/p&gt;
     </source>
-        <translation type="unfinished">&lt;p&gt;Универсальный конвертер документов. Может использоваться для преобразования markdown в широкий 
-    диапазон других форматов.&lt;/p&gt;
-    &lt;p&gt;Вебсайт: &lt;a href=&quot;http://www.pandoc.org&quot;&gt;http://pandoc.org/&lt;/a&gt;&lt;/p&gt;
+        <translation>&lt;p&gt;Универсальный конвертер документов. Может использоваться для преобразования документов в формате markdown 
+     в широкий диапазон других форматов.&lt;/p&gt;
+     &lt;p&gt;Вебсайт: &lt;a href=&quot;http://www.pandoc.org&quot;&gt;http://pandoc.org/&lt;/a&gt;&lt;/p&gt;
     </translation>
     </message>
     <message>
         <location filename="../manuskript/exporter/pandoc/PDF.py" line="19"/>
         <source>a valid LaTeX installation. Pandoc recommendations can be found on:
                      &lt;a href=&quot;https://pandoc.org/installing.html&quot;&gt;pandoc.org/installing.html&lt;/a&gt;. If you want Unicode support, you need XeLaTeX.</source>
-        <translation type="unfinished">действующая установка latex. См. рекомендации pandoc на:
-                     &lt;a href=&quot;http://pandoc.org/installing.html&quot;&gt;http://pandoc.org/installing.html&lt;/a&gt;. Если вам нужна поддержка юникода, вам необходим xelatex.</translation>
+        <translation>действующая установка LaTeX. См. рекомендации pandoc на:
+                     &lt;a href=&quot;http://pandoc.org/installing.html&quot;&gt;http://pandoc.org/installing.html&lt;/a&gt;. Если вам нужна поддержка юникода, вам необходим XeLaTeX.</translation>
     </message>
     <message>
         <location filename="../manuskript/exporter/pandoc/plainText.py" line="10"/>
@@ -213,16 +208,27 @@
                                               или контролировать через планировщик.</translation>
     </message>
     <message>
-        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="102"/>
+        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="114"/>
         <source>Disable YAML metadata block.
 Use that if you get YAML related error.</source>
         <translation>Отключить блок метаданных YAML.
 Используйте это, если получаете ошибки связанные с YAML.</translation>
     </message>
     <message>
-        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="117"/>
+        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="134"/>
         <source>Convert to ePUB3</source>
         <translation>Преобразовать в формат ePUB3</translation>
+    </message>
+    <message>
+        <location filename="../manuskript/exporter/manuskript/plainText.py" line="47"/>
+        <source>Error processing regular expression : 
+{}</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../manuskript/exporter/manuskript/plainText.py" line="69"/>
+        <source>Choose output file...</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -303,7 +309,7 @@ Use that if you get YAML related error.</source>
     <message>
         <location filename="../manuskript/ui/tools/frequency_ui.ui" line="63"/>
         <source>Exclude words (comma separated):</source>
-        <translation type="unfinished">Исключить слова (через запятую):</translation>
+        <translation>Исключить слова (разделенные запятой):</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/tools/frequency_ui.ui" line="156"/>
@@ -477,7 +483,7 @@ Use that if you get YAML related error.</source>
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="1633"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="1627"/>
         <source>General</source>
         <translation>Основные</translation>
     </message>
@@ -517,7 +523,7 @@ Use that if you get YAML related error.</source>
         <translation>Автор</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="1642"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="1636"/>
         <source>Name</source>
         <translation>Имя</translation>
     </message>
@@ -527,7 +533,7 @@ Use that if you get YAML related error.</source>
         <translation>адрес Email</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="1428"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="1422"/>
         <source>Summary</source>
         <translation>Сводка</translation>
     </message>
@@ -547,24 +553,24 @@ Use that if you get YAML related error.</source>
         <translation>Одно предложение</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="1441"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="1435"/>
         <source>One paragraph</source>
         <translation>Один абзац</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="1446"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="1440"/>
         <source>One page</source>
         <translation>Одна страница</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="1451"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="1445"/>
         <source>Full</source>
         <translation>Все</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/mainWindow.ui" line="420"/>
         <source>One sentence summary</source>
-        <translation>Одной фразой резюме</translation>
+        <translation>Описание одной фразой</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/mainWindow.ui" line="502"/>
@@ -574,17 +580,17 @@ Use that if you get YAML related error.</source>
     <message>
         <location filename="../manuskript/ui/mainWindow.ui" line="540"/>
         <source>Expand each sentence of your one paragraph summary to a paragraph</source>
-        <translation>Разверните каждое предложение вашего резюме, абзац к абзацу</translation>
+        <translation>Разверните каждое предложение вашего описания одним абзацем к абзацу</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/mainWindow.ui" line="565"/>
         <source>One page summary</source>
-        <translation>Одна страница резюме</translation>
+        <translation>Описание одной страницей</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/mainWindow.ui" line="590"/>
         <source>Full summary</source>
-        <translation>Полное резюме</translation>
+        <translation>Полное описание</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/mainWindow.ui" line="1074"/>
@@ -607,7 +613,7 @@ Use that if you get YAML related error.</source>
         <translation>Имя</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="1593"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="1587"/>
         <source>Filter</source>
         <translation>Фильтр</translation>
     </message>
@@ -662,7 +668,7 @@ Use that if you get YAML related error.</source>
         <translation>Подробная информация</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2027"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2021"/>
         <source>Plots</source>
         <translation>Сюжеты</translation>
     </message>
@@ -677,7 +683,7 @@ Use that if you get YAML related error.</source>
         <translation>Персонаж</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="1652"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="1646"/>
         <source>Description</source>
         <translation>Описание</translation>
     </message>
@@ -692,232 +698,227 @@ Use that if you get YAML related error.</source>
         <translation>Шаги развязки</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2051"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2045"/>
         <source>World</source>
         <translation>Мир</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="1606"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="1600"/>
         <source>Populates with empty data</source>
         <translation>Заполняет пустые данные</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="1663"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="1657"/>
         <source>More</source>
         <translation>Еще</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="1672"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="1666"/>
         <source>Source of passion</source>
         <translation>Источник страсти</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="1682"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="1676"/>
         <source>Source of conflict</source>
         <translation>Источник конфликта</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="1365"/>
+        <location filename="../manuskript/mainWindow.py" line="1363"/>
         <source>Outline</source>
         <translation>Схема</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="1860"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="1854"/>
         <source>Editor</source>
         <translation>Редактор</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="1991"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="1985"/>
         <source>Debug</source>
         <translation>Отладка</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2004"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="1998"/>
         <source>FlatData</source>
         <translation>Сырые Данные</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2014"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2008"/>
         <source>Persos</source>
         <translation>Персонаж</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2075"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2069"/>
         <source>Labels</source>
         <translation>Метки</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2109"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2103"/>
         <source>&amp;File</source>
         <translation>&amp;Файл</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2113"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2107"/>
         <source>&amp;Recent</source>
         <translation>&amp;Последний</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2133"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2127"/>
         <source>&amp;Help</source>
         <translation>&amp;Помощь</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2140"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2134"/>
         <source>&amp;Tools</source>
         <translation>&amp;Инструменты</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2147"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2141"/>
         <source>&amp;Edit</source>
         <translation>&amp;Редактировать</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2202"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2196"/>
         <source>&amp;View</source>
         <translation>&amp;Просмотр</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2206"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2200"/>
         <source>&amp;Mode</source>
         <translation>&amp;Режим</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2236"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2229"/>
         <source>&amp;Cheat sheet</source>
-        <translation>&amp;Обманный лист</translation>
+        <translation>&amp;Шпаргалка</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2270"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2263"/>
         <source>Sea&amp;rch</source>
         <translation>Пои&amp;ск</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2307"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2300"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Навигация</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2342"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2335"/>
         <source>&amp;Open</source>
         <translation>&amp;Открыть</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2345"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2338"/>
         <source>Ctrl+O</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2354"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2347"/>
         <source>&amp;Save</source>
         <translation>&amp;Сохранить</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2357"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2350"/>
         <source>Ctrl+S</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2366"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2359"/>
         <source>Sa&amp;ve as...</source>
         <translation>Сохра&amp;нить как...</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2369"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2362"/>
         <source>Ctrl+Shift+S</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2378"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2371"/>
         <source>&amp;Quit</source>
         <translation>&amp;Выход</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2381"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2374"/>
         <source>Ctrl+Q</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2396"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2389"/>
         <source>&amp;Show help texts</source>
         <translation>&amp;Показать текст подсказки</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2399"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2392"/>
         <source>Ctrl+Shift+B</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2414"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2407"/>
         <source>&amp;Spellcheck</source>
         <translation>&amp;Проверка орфографии</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2417"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2410"/>
         <source>F9</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2426"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2419"/>
         <source>&amp;Labels...</source>
         <translation>&amp;Метки...</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2435"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2428"/>
         <source>&amp;Status...</source>
         <translation>&amp;Статус...</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="1363"/>
+        <location filename="../manuskript/mainWindow.py" line="1361"/>
         <source>Tree</source>
         <translation>Дерево</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2451"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2444"/>
         <source>&amp;Simple</source>
         <translation>&amp;Простой</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2459"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2452"/>
         <source>&amp;Fiction</source>
-        <translation>&amp;Вымасел</translation>
+        <translation>&amp;Вымысел</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2467"/>
-        <source>S&amp;nowflake</source>
-        <translation>С&amp;нежинка</translation>
-    </message>
-    <message>
-        <location filename="../manuskript/mainWindow.py" line="1364"/>
+        <location filename="../manuskript/mainWindow.py" line="1362"/>
         <source>Index cards</source>
         <translation>Индекс карты</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2486"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2471"/>
         <source>S&amp;ettings</source>
         <translation>Н&amp;астройки</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2489"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2474"/>
         <source>F8</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2498"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2483"/>
         <source>&amp;Close project</source>
         <translation>&amp;Закрыть проект</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2507"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2492"/>
         <source>Co&amp;mpile</source>
         <translation>Со&amp;брать</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2510"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2495"/>
         <source>F6</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2515"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2500"/>
         <source>&amp;Frequency Analyzer</source>
         <translation>&amp;Анализатор частоты повторений</translation>
     </message>
@@ -927,533 +928,523 @@ Use that if you get YAML related error.</source>
         <translation>Информация о книге</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2524"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2509"/>
         <source>&amp;About</source>
-        <translation>&amp;Описание</translation>
+        <translation>&amp;О программе</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2527"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2512"/>
         <source>About Manuskript</source>
-        <translation>Об Манускрипт</translation>
+        <translation>О Манускрипт</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="556"/>
-        <source>The file {} does not exist. Try again.</source>
-        <translation>Файл {} не существует. Попробуй еще раз.</translation>
-    </message>
-    <message>
-        <location filename="../manuskript/mainWindow.py" line="674"/>
+        <location filename="../manuskript/mainWindow.py" line="672"/>
         <source>Manuskript</source>
         <translation>Манускрипт</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="773"/>
+        <location filename="../manuskript/mainWindow.py" line="771"/>
         <source>Project {} saved.</source>
         <translation>Сохранить {} проект.</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="776"/>
+        <location filename="../manuskript/mainWindow.py" line="774"/>
         <source>WARNING: Project {} not saved.</source>
         <translation>ВНИМАНИЕ: Проект {} не сохранён.</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="800"/>
+        <location filename="../manuskript/mainWindow.py" line="798"/>
         <source>Project {} loaded.</source>
         <translation>Проект {} загружен.</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="803"/>
+        <location filename="../manuskript/mainWindow.py" line="801"/>
         <source>Project {} loaded with some errors:</source>
         <translation>Проект {} загружен некоторыми ошибками:</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="805"/>
+        <location filename="../manuskript/mainWindow.py" line="803"/>
         <source> * {} wasn&apos;t found in project file.</source>
         <translation> * {} не найден в файле проекта.</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="806"/>
+        <location filename="../manuskript/mainWindow.py" line="804"/>
         <source>Project {} loaded with some errors.</source>
         <translation>Проект {} загружен с некоторыми ошибками.</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="1132"/>
+        <location filename="../manuskript/mainWindow.py" line="1130"/>
         <source> (~{} pages)</source>
         <translation> (~{} страниц)</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="1136"/>
+        <location filename="../manuskript/mainWindow.py" line="1134"/>
         <source>Words: {}{}</source>
         <translation>Слова: {}{}</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="1144"/>
+        <location filename="../manuskript/mainWindow.py" line="1142"/>
         <source>Book summary</source>
         <translation>Краткое содержание книги</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="1145"/>
+        <location filename="../manuskript/mainWindow.py" line="1143"/>
         <source>Project tree</source>
         <translation>Дерево проекта</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="1146"/>
+        <location filename="../manuskript/mainWindow.py" line="1144"/>
         <source>Metadata</source>
         <translation>Метаданные</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="1147"/>
+        <location filename="../manuskript/mainWindow.py" line="1145"/>
         <source>Story line</source>
         <translation>Сюжетная линия</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="1212"/>
+        <location filename="../manuskript/mainWindow.py" line="1210"/>
         <source>Enter information about your book, and yourself.</source>
         <translation>Введите информацию о своей книге и о себе.</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="1215"/>
+        <location filename="../manuskript/mainWindow.py" line="1213"/>
         <source>The basic situation, in the form of a &apos;What if...?&apos; question. Ex: &apos;What if the most dangerous
                      evil wizard wasn&apos;t able to kill a baby?&apos; (Harry Potter)</source>
         <translation>Основная ситуация, в виде &apos;Что если ...?&apos;. Вопрос. Пример: «Что, если самая опасная
                       злой волшебник не смог бы убить ребенка? (Гарри Поттер)</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="1220"/>
+        <location filename="../manuskript/mainWindow.py" line="1218"/>
         <source>Take time to think about a one sentence (~50 words) summary of your book. Then expand it to
                      a paragraph, then to a page, then to a full summary.</source>
-        <translation>Потратьте время, чтобы подумать одно предложении (~ 50 слов) о вашей книге. Затем дополните его до
-                      абзаца, затем до страницы, а затем полное резюме.</translation>
+        <translation>Потратьте время, чтобы придумать одно предложение (~50 слов) о вашей книге. Затем дополните его до
+                      абзаца, затем до страницы, а затем до полного резюме.</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="1225"/>
+        <location filename="../manuskript/mainWindow.py" line="1223"/>
         <source>Create your characters.</source>
         <translation>Создайте своих персонажей.</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="1228"/>
+        <location filename="../manuskript/mainWindow.py" line="1226"/>
         <source>Develop plots.</source>
         <translation>Разработайте сюжет.</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="1231"/>
+        <location filename="../manuskript/mainWindow.py" line="1229"/>
         <source>Build worlds.  Create hierarchy of broad categories down to specific details.</source>
         <translation>Строить миры. Создайте иерархию общих категорий и до конкретных деталей.</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="1234"/>
+        <location filename="../manuskript/mainWindow.py" line="1232"/>
         <source>Create the outline of your masterpiece.</source>
         <translation>Создайте план вашего шедевра.</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="1237"/>
+        <location filename="../manuskript/mainWindow.py" line="1235"/>
         <source>Write.</source>
         <translation>Писать.</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="1240"/>
+        <location filename="../manuskript/mainWindow.py" line="1238"/>
         <source>Debug info. Sometimes useful.</source>
         <translation>Отладочная информация. Иногда полезно.</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="1254"/>
+        <location filename="../manuskript/mainWindow.py" line="1252"/>
         <source>Dictionary</source>
         <translation>Словарь</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="1267"/>
+        <location filename="../manuskript/mainWindow.py" line="1265"/>
         <source>Install PyEnchant to use spellcheck</source>
         <translation>Установите PyEnchant для проверки орфографии</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="1355"/>
+        <location filename="../manuskript/mainWindow.py" line="1353"/>
         <source>Nothing</source>
         <translation>Ничего</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="1356"/>
+        <location filename="../manuskript/mainWindow.py" line="1354"/>
         <source>POV</source>
         <translation>Точка зрения</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="1357"/>
+        <location filename="../manuskript/mainWindow.py" line="1355"/>
         <source>Label</source>
         <translation>Метка</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="1358"/>
+        <location filename="../manuskript/mainWindow.py" line="1356"/>
         <source>Progress</source>
         <translation>Прогресс</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="1359"/>
+        <location filename="../manuskript/mainWindow.py" line="1357"/>
         <source>Compile</source>
         <translation>Собрать</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="1382"/>
+        <location filename="../manuskript/mainWindow.py" line="1380"/>
         <source>Icon color</source>
         <translation>Цвет иконки</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="1383"/>
+        <location filename="../manuskript/mainWindow.py" line="1381"/>
         <source>Text color</source>
         <translation>Цвет текста</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="1384"/>
+        <location filename="../manuskript/mainWindow.py" line="1382"/>
         <source>Background color</source>
         <translation>Цвет фона</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="1375"/>
+        <location filename="../manuskript/mainWindow.py" line="1373"/>
         <source>Icon</source>
         <translation>Иконка</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="1376"/>
+        <location filename="../manuskript/mainWindow.py" line="1374"/>
         <source>Text</source>
         <translation>Текст</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="1377"/>
+        <location filename="../manuskript/mainWindow.py" line="1375"/>
         <source>Background</source>
         <translation>Фон</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="1378"/>
+        <location filename="../manuskript/mainWindow.py" line="1376"/>
         <source>Border</source>
         <translation>Граница</translation>
     </message>
     <message>
-        <location filename="../manuskript/mainWindow.py" line="1379"/>
+        <location filename="../manuskript/mainWindow.py" line="1377"/>
         <source>Corner</source>
         <translation>Угол</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/mainWindow.ui" line="1351"/>
-        <source>Add plot step (CTRL+Enter)</source>
-        <translation>Добавить шаги сюжета (CTRL+Enter)</translation>
-    </message>
-    <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="1361"/>
-        <source>Ctrl+Return</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="1371"/>
-        <source>Remove selected plot step(s) (CTRL+Backspace)</source>
-        <translation>Удалить выбранные сюжетные шаг(и) (CTRL+Backspace)</translation>
-    </message>
-    <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="1381"/>
-        <source>Ctrl+Backspace</source>
-        <translation></translation>
+        <source>Add plot step</source>
+        <translation>Добавить шаги сюжета</translation>
     </message>
     <message encoding="UTF-8">
-        <location filename="../manuskript/ui/mainWindow.ui" line="2536"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2521"/>
         <source>&amp;Import…</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2539"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2524"/>
         <source>F7</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2548"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2533"/>
         <source>&amp;Copy</source>
         <translation>&amp;Копировать</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2551"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2536"/>
         <source>Ctrl+C</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2560"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2545"/>
         <source>C&amp;ut</source>
         <translation>В&amp;ырезать</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2563"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2548"/>
         <source>Ctrl+X</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2572"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2557"/>
         <source>&amp;Paste</source>
         <translation>&amp;Вставить</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2575"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2560"/>
         <source>Ctrl+V</source>
         <translation></translation>
     </message>
     <message encoding="UTF-8">
-        <location filename="../manuskript/ui/mainWindow.ui" line="2584"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2569"/>
         <source>&amp;Split…</source>
         <translation>&amp;Разделить…</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2587"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2572"/>
         <source>Ctrl+Shift+K</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2596"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2581"/>
         <source>Sp&amp;lit at cursor</source>
         <translation>Ра&amp;зделить на курсор</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2599"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2584"/>
         <source>Ctrl+K</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2611"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2596"/>
         <source>Ctrl+M</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2814"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2799"/>
         <source>Ctrl+D</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2632"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2617"/>
         <source>Del</source>
         <translation>Удалить</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2641"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2626"/>
         <source>&amp;Move Up</source>
         <translation>&amp;Переместить вверх</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2644"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2629"/>
         <source>Ctrl+Shift+Up</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2653"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2638"/>
         <source>M&amp;ove Down</source>
         <translation>П&amp;ереместить вниз</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2656"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2641"/>
         <source>Ctrl+Shift+Down</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2620"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2605"/>
         <source>Dupl&amp;icate</source>
         <translation>Дупли&amp;каты</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2629"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2614"/>
         <source>&amp;Delete</source>
         <translation>&amp;Удалить</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2665"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2650"/>
         <source>&amp;Rename</source>
         <translation>&amp;Переименовать</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2668"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2653"/>
         <source>F2</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2217"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2210"/>
         <source>Organi&amp;ze</source>
         <translation>Органи&amp;зовать</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2608"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2593"/>
         <source>M&amp;erge</source>
         <translation>С&amp;оединить</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2151"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2145"/>
         <source>&amp;Format</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Форматировать</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2159"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2153"/>
         <source>&amp;Header</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Заголовок</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2673"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2658"/>
         <source>&amp;Level 1 (setext)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Уровень 1 (с текстом)</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2676"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2661"/>
         <source>Ctrl+Alt+1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Alt+1</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2681"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2666"/>
         <source>Level &amp;2</source>
-        <translation type="unfinished"></translation>
+        <translation>Уровень &amp;2</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2684"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2669"/>
         <source>Ctrl+Alt+2</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Alt+2</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2689"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2674"/>
         <source>Level &amp;1 (atx)</source>
-        <translation type="unfinished"></translation>
+        <translation>Уровень &amp;1 (atx)</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2692"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2677"/>
         <source>Ctrl+1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+1</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2697"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2682"/>
         <source>L&amp;evel 2</source>
-        <translation type="unfinished"></translation>
+        <translation>У&amp;ровень 2</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2700"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2685"/>
         <source>Ctrl+2</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+2</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2705"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2690"/>
         <source>Level &amp;3</source>
-        <translation type="unfinished"></translation>
+        <translation>Уровень &amp;3</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2708"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2693"/>
         <source>Ctrl+3</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+3</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2713"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2698"/>
         <source>Level &amp;4</source>
-        <translation type="unfinished"></translation>
+        <translation>Уровень &amp;4</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2716"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2701"/>
         <source>Ctrl+4</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+4</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2721"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2706"/>
         <source>Level &amp;5</source>
-        <translation type="unfinished"></translation>
+        <translation>Уровень &amp;5</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2724"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2709"/>
         <source>Ctrl+5</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+5</translation>
+    </message>
+    <message>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2714"/>
+        <source>Level &amp;6</source>
+        <translation>Уровень &amp;6</translation>
+    </message>
+    <message>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2717"/>
+        <source>Ctrl+6</source>
+        <translation>Ctrl+6</translation>
+    </message>
+    <message>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2726"/>
+        <source>&amp;Bold</source>
+        <translation>&amp;Жирный</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/mainWindow.ui" line="2729"/>
-        <source>Level &amp;6</source>
-        <translation type="unfinished"></translation>
+        <source>Ctrl+B</source>
+        <translation>Ctrl+B</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2732"/>
-        <source>Ctrl+6</source>
-        <translation type="unfinished"></translation>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2738"/>
+        <source>&amp;Italic</source>
+        <translation>&amp;Курсив</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/mainWindow.ui" line="2741"/>
-        <source>&amp;Bold</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2744"/>
-        <source>Ctrl+B</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2753"/>
-        <source>&amp;Italic</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2756"/>
         <source>Ctrl+I</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+I</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2765"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2750"/>
         <source>&amp;Strike</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;Удар</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2770"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2755"/>
         <source>&amp;Verbatim</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Дословный</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2775"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2760"/>
         <source>Su&amp;perscript</source>
-        <translation type="unfinished"></translation>
+        <translation>Ве&amp;рхний индекс</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2778"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2763"/>
         <source>Ctrl++</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl++</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2783"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2768"/>
         <source>Subsc&amp;ript</source>
-        <translation type="unfinished"></translation>
+        <translation>Инд&amp;екс</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2786"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2771"/>
         <source>Ctrl+-</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+-</translation>
+    </message>
+    <message>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2776"/>
+        <source>Co&amp;mment block</source>
+        <translation>Бл&amp;ок комментариев</translation>
+    </message>
+    <message>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2779"/>
+        <source>Ctrl+Shift+C</source>
+        <translation>Ctrl+Shift+C</translation>
+    </message>
+    <message>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2788"/>
+        <source>Clear &amp;formats</source>
+        <translation>Очистить &amp;форматирование</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/mainWindow.ui" line="2791"/>
-        <source>Co&amp;mment block</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2794"/>
-        <source>Ctrl+Shift+C</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2803"/>
-        <source>Clear &amp;formats</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2806"/>
         <source>Ctrl+0</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+0</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2811"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2796"/>
         <source>&amp;Comment line(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Строка комментария</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2819"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2804"/>
         <source>&amp;Ordered list</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Упорядоченный список</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2828"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2813"/>
         <source>&amp;Unordered list</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Неупорядоченный список</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/mainWindow.ui" line="2833"/>
+        <location filename="../manuskript/ui/mainWindow.ui" line="2818"/>
         <source>B&amp;lockquote</source>
-        <translation type="unfinished"></translation>
+        <translation>Бло&amp;к цитата</translation>
+    </message>
+    <message>
+        <location filename="../manuskript/ui/mainWindow.ui" line="1368"/>
+        <source>Remove selected plot step(s)</source>
+        <translation>Удалить выбранный шаг сюжета</translation>
+    </message>
+    <message>
+        <location filename="../manuskript/mainWindow.py" line="554"/>
+        <source>The file {} does not exist. Has it been moved or deleted?</source>
+        <translation>Файл {} не существует. Он был перемещен или удален?</translation>
     </message>
 </context>
 <context>
@@ -1501,7 +1492,7 @@ Use that if you get YAML related error.</source>
     <message>
         <location filename="../manuskript/ui/settings_ui.ui" line="98"/>
         <source>Application settings</source>
-        <translation type="unfinished">Вид программы</translation>
+        <translation>Настройки приложения</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/settings_ui.ui" line="201"/>
@@ -2071,83 +2062,83 @@ Use that if you get YAML related error.</source>
     <message>
         <location filename="../manuskript/ui/settings_ui.ui" line="113"/>
         <source>Style:</source>
-        <translation type="unfinished"></translation>
+        <translation>Стиль:</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/settings_ui.ui" line="136"/>
         <source>Language:</source>
-        <translation type="unfinished"></translation>
+        <translation>Язык:</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/settings_ui.ui" line="159"/>
         <source>Font size:</source>
-        <translation type="unfinished">Размер шрифта:</translation>
+        <translation>Размер шрифта:</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/settings_ui.ui" line="182"/>
-        <source>You might need to restart manuskript in order for those settings to take effect properly and entirely.</source>
-        <translation type="unfinished"></translation>
+        <source>Restarting Manuskript ensures all settings take effect.</source>
+        <translation type="unfinished">Возможно, вам придется перезапустить manuskript, чтобы эти настройки вступили в силу должным образом и полностью.</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/settings_ui.ui" line="1066"/>
         <source>Show &amp;word count</source>
-        <translation type="unfinished"></translation>
+        <translation>Показать &amp;количество слов</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/settings_ui.ui" line="1136"/>
         <source>&amp;Show word count</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Показать количество слов</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/settings_ui.ui" line="1700"/>
         <source>&amp;New style</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Новый стиль</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/settings_ui.ui" line="2652"/>
         <source>Typewriter mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Режим пишущей машинки</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/settings_ui.ui" line="2665"/>
         <source>Focus mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Режим фокусировки</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/settings_ui.ui" line="2679"/>
         <source>None</source>
-        <translation type="unfinished">Пусто</translation>
+        <translation>Пусто</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/settings_ui.ui" line="2684"/>
         <source>Sentence</source>
-        <translation type="unfinished"></translation>
+        <translation>Предложение</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/settings_ui.ui" line="2689"/>
         <source>Line</source>
-        <translation type="unfinished"></translation>
+        <translation>Линия</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/settings_ui.ui" line="2694"/>
         <source>Paragraph</source>
-        <translation type="unfinished"></translation>
+        <translation>Параграф</translation>
     </message>
 </context>
 <context>
     <name>SpellAction</name>
     <message>
-        <location filename="../manuskript/ui/views/textEditView.py" line="479"/>
+        <location filename="../manuskript/ui/views/textEditView.py" line="482"/>
         <source>Spelling Suggestions</source>
         <translation>Варианты правописания</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/views/textEditView.py" line="490"/>
+        <location filename="../manuskript/ui/views/textEditView.py" line="493"/>
         <source>&amp;Add to dictionary</source>
         <translation>&amp;Добавить в словарь</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/views/textEditView.py" line="503"/>
+        <location filename="../manuskript/ui/views/textEditView.py" line="506"/>
         <source>&amp;Remove from custom dictionary</source>
         <translation>&amp;Удалить из пользовательского словаря</translation>
     </message>
@@ -2157,7 +2148,7 @@ Use that if you get YAML related error.</source>
     <message>
         <location filename="../manuskript/ui/about_ui.ui" line="17"/>
         <source>About Manuskript</source>
-        <translation>Об Манускрипт</translation>
+        <translation>О Манускрипт</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/about_ui.ui" line="50"/>
@@ -2220,13 +2211,13 @@ Use that if you get YAML related error.</source>
     <name>app</name>
     <message>
         <location filename="../manuskript/main.py" line="52"/>
-        <source>Loaded translation: {}.</source>
-        <translation>Загружен перевод: {}.</translation>
+        <source>Loaded translation from {}: {}.</source>
+        <translation type="unfinished">Загружен перевод: {}.</translation>
     </message>
     <message>
         <location filename="../manuskript/main.py" line="55"/>
-        <source>Note: No translator found or loaded for locale {}.</source>
-        <translation>Примечание: переводчик не найден или не загружен для языка {}.</translation>
+        <source>Note: No translator found or loaded from {} for locale {}.</source>
+        <translation type="unfinished">Примечание: переводчик не найден или не загружен для языка {}.</translation>
     </message>
 </context>
 <context>
@@ -2254,12 +2245,12 @@ Use that if you get YAML related error.</source>
     <message>
         <location filename="../manuskript/ui/views/basicItemView_ui.ui" line="92"/>
         <source>One line summary</source>
-        <translation>Одной строкой резюме</translation>
+        <translation>Описание одной строкой</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/views/basicItemView_ui.ui" line="99"/>
         <source>Few sentences summary:</source>
-        <translation>Несколько предложений резюме:</translation>
+        <translation>Описание в несколько предложений:</translation>
     </message>
 </context>
 <context>
@@ -2311,37 +2302,37 @@ Use that if you get YAML related error.</source>
         <translation>Фильтр (введите название чего-либо в вашем проекте)</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/cheatSheet.py" line="111"/>
+        <location filename="../manuskript/ui/cheatSheet.py" line="113"/>
         <source>Minor</source>
         <translation>Незначительный</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/cheatSheet.py" line="111"/>
+        <location filename="../manuskript/ui/cheatSheet.py" line="113"/>
         <source>Secondary</source>
         <translation>Вторичный</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/cheatSheet.py" line="111"/>
+        <location filename="../manuskript/ui/cheatSheet.py" line="113"/>
         <source>Main</source>
         <translation>Главная</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/cheatSheet.py" line="89"/>
+        <location filename="../manuskript/ui/cheatSheet.py" line="91"/>
         <source>Characters</source>
         <translation>Персонажи</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/cheatSheet.py" line="102"/>
+        <location filename="../manuskript/ui/cheatSheet.py" line="104"/>
         <source>Texts</source>
         <translation>Тексты</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/cheatSheet.py" line="114"/>
+        <location filename="../manuskript/ui/cheatSheet.py" line="116"/>
         <source>Plots</source>
         <translation>Сюжеты</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/cheatSheet.py" line="118"/>
+        <location filename="../manuskript/ui/cheatSheet.py" line="120"/>
         <source>World</source>
         <translation>Мир</translation>
     </message>
@@ -2411,7 +2402,7 @@ Use that if you get YAML related error.</source>
     <message>
         <location filename="../manuskript/ui/views/corkDelegate.py" line="62"/>
         <source>One line summary</source>
-        <translation>Одной строкой резюме</translation>
+        <translation>Описание одной строкой</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/views/corkDelegate.py" line="92"/>
@@ -2725,19 +2716,74 @@ Use that if you get YAML related error.</source>
 <context>
     <name>fullScreenEditor</name>
     <message>
-        <location filename="../manuskript/ui/editors/fullScreenEditor.py" line="101"/>
+        <location filename="../manuskript/ui/editors/fullScreenEditor.py" line="132"/>
         <source>Theme:</source>
         <translation>Тема:</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/editors/fullScreenEditor.py" line="285"/>
+        <location filename="../manuskript/ui/editors/fullScreenEditor.py" line="355"/>
         <source>{} words / {}</source>
         <translation>{} слова / {}</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/editors/fullScreenEditor.py" line="288"/>
+        <location filename="../manuskript/ui/editors/fullScreenEditor.py" line="359"/>
         <source>{} words</source>
         <translation>{} слова</translation>
+    </message>
+    <message>
+        <location filename="../manuskript/ui/editors/fullScreenEditor.py" line="152"/>
+        <source>Spellcheck</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../manuskript/ui/editors/fullScreenEditor.py" line="153"/>
+        <source>Navigation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../manuskript/ui/editors/fullScreenEditor.py" line="154"/>
+        <source>New Text</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../manuskript/ui/editors/fullScreenEditor.py" line="155"/>
+        <source>Title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../manuskript/ui/editors/fullScreenEditor.py" line="156"/>
+        <source>Title: Show Full Path</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../manuskript/ui/editors/fullScreenEditor.py" line="158"/>
+        <source>Theme selector</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../manuskript/ui/editors/fullScreenEditor.py" line="159"/>
+        <source>Word count</source>
+        <translation type="unfinished">Количество слов</translation>
+    </message>
+    <message>
+        <location filename="../manuskript/ui/editors/fullScreenEditor.py" line="160"/>
+        <source>Progress</source>
+        <translation type="unfinished">Прогресс</translation>
+    </message>
+    <message>
+        <location filename="../manuskript/ui/editors/fullScreenEditor.py" line="161"/>
+        <source>Progress: Auto Show/Hide</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../manuskript/ui/editors/fullScreenEditor.py" line="162"/>
+        <source>Clock</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../manuskript/ui/editors/fullScreenEditor.py" line="163"/>
+        <source>Clock: Show Seconds</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2795,8 +2841,8 @@ Use that if you get YAML related error.</source>
     </message>
     <message>
         <location filename="../manuskript/ui/importers/importer_ui.ui" line="45"/>
-        <source>Chose file</source>
-        <translation>Выберите файл</translation>
+        <source>Choose file</source>
+        <translation type="unfinished">Выберите файл</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/importers/importer_ui.ui" line="75"/>
@@ -2812,6 +2858,14 @@ Use that if you get YAML related error.</source>
         <location filename="../manuskript/ui/importers/importer_ui.ui" line="138"/>
         <source>Settings</source>
         <translation>Параметры</translation>
+    </message>
+</context>
+<context>
+    <name>lastAccessedDirectoryInfo</name>
+    <message>
+        <location filename="../manuskript/ui/welcome.py" line="60"/>
+        <source>Last accessed directory &quot;{}&quot; loaded.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2966,12 +3020,12 @@ Use that if you get YAML related error.</source>
     <message>
         <location filename="../manuskript/ui/views/metadataView_ui.ui" line="81"/>
         <source>Summary</source>
-        <translation>Резюме</translation>
+        <translation>Сводка</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/views/metadataView_ui.ui" line="114"/>
         <source>One line summary</source>
-        <translation>Одна линия резюме</translation>
+        <translation>Описание одной строкой</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/views/metadataView_ui.ui" line="140"/>
@@ -2992,7 +3046,7 @@ Use that if you get YAML related error.</source>
 <context>
     <name>myPanel</name>
     <message>
-        <location filename="../manuskript/ui/editors/fullScreenEditor.py" line="373"/>
+        <location filename="../manuskript/ui/editors/fullScreenEditor.py" line="590"/>
         <source>Auto-hide</source>
         <translation>Автоматически скрывать</translation>
     </message>
@@ -3067,7 +3121,7 @@ Use that if you get YAML related error.</source>
     <message>
         <location filename="../manuskript/ui/views/outlineBasics.py" line="313"/>
         <source>About to remove</source>
-        <translation>О том, чтобы удалить</translation>
+        <translation>Удаление</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/views/outlineBasics.py" line="313"/>
@@ -3146,12 +3200,12 @@ Use that if you get YAML related error.</source>
 <context>
     <name>outlineItem</name>
     <message>
-        <location filename="../manuskript/models/outlineItem.py" line="227"/>
+        <location filename="../manuskript/models/outlineItem.py" line="237"/>
         <source>{} words / {} ({})</source>
         <translation>{} слова / {} ({})</translation>
     </message>
     <message>
-        <location filename="../manuskript/models/outlineItem.py" line="232"/>
+        <location filename="../manuskript/models/outlineItem.py" line="242"/>
         <source>{} words</source>
         <translation>{} слова</translation>
     </message>
@@ -3159,17 +3213,17 @@ Use that if you get YAML related error.</source>
 <context>
     <name>pandocSettings</name>
     <message>
-        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="148"/>
+        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="166"/>
         <source>General</source>
         <translation>Основные</translation>
     </message>
     <message>
-        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="156"/>
+        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="180"/>
         <source>Table of Content</source>
         <translation>Содержание</translation>
     </message>
     <message>
-        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="161"/>
+        <location filename="../manuskript/exporter/pandoc/abstractPlainText.py" line="185"/>
         <source>Custom settings for {}</source>
         <translation>Пользовательские настройки для {}</translation>
     </message>
@@ -3184,7 +3238,7 @@ Use that if you get YAML related error.</source>
     <message>
         <location filename="../manuskript/models/persosProxyModel.py" line="17"/>
         <source>Secondary</source>
-        <translation type="unfinished">Вторичная</translation>
+        <translation>Второстепенный</translation>
     </message>
     <message>
         <location filename="../manuskript/models/persosProxyModel.py" line="18"/>
@@ -3272,7 +3326,7 @@ Use that if you get YAML related error.</source>
     <message>
         <location filename="../manuskript/ui/views/plotDelegate.py" line="33"/>
         <source>1. Inciting event</source>
-        <translation type="unfinished">Пересечение порога</translation>
+        <translation>1. Подстрекательское событие</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/views/plotDelegate.py" line="33"/>
@@ -3373,37 +3427,37 @@ Use that if you get YAML related error.</source>
 <context>
     <name>plotModel</name>
     <message>
-        <location filename="../manuskript/models/plotModel.py" line="109"/>
+        <location filename="../manuskript/models/plotModel.py" line="108"/>
         <source>New plot</source>
         <translation>Новый сюжет</translation>
     </message>
     <message>
-        <location filename="../manuskript/models/plotModel.py" line="141"/>
+        <location filename="../manuskript/models/plotModel.py" line="140"/>
         <source>Name</source>
         <translation>Имя</translation>
     </message>
     <message>
-        <location filename="../manuskript/models/plotModel.py" line="143"/>
+        <location filename="../manuskript/models/plotModel.py" line="142"/>
         <source>Meta</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../manuskript/models/plotModel.py" line="178"/>
+        <location filename="../manuskript/models/plotModel.py" line="177"/>
         <source>New step</source>
         <translation>Новый шаг</translation>
     </message>
     <message>
-        <location filename="../manuskript/models/plotModel.py" line="247"/>
+        <location filename="../manuskript/models/plotModel.py" line="246"/>
         <source>Main</source>
         <translation>Главная</translation>
     </message>
     <message>
-        <location filename="../manuskript/models/plotModel.py" line="247"/>
+        <location filename="../manuskript/models/plotModel.py" line="246"/>
         <source>Secondary</source>
         <translation>Вторичный</translation>
     </message>
     <message>
-        <location filename="../manuskript/models/plotModel.py" line="247"/>
+        <location filename="../manuskript/models/plotModel.py" line="246"/>
         <source>Minor</source>
         <translation>Незначительный</translation>
     </message>
@@ -3441,7 +3495,7 @@ Use that if you get YAML related error.</source>
     <message>
         <location filename="../manuskript/models/plotsProxyModel.py" line="23"/>
         <source>Secondary</source>
-        <translation type="unfinished">Вторичный</translation>
+        <translation>Второстепенный</translation>
     </message>
     <message>
         <location filename="../manuskript/models/plotsProxyModel.py" line="24"/>
@@ -3809,29 +3863,55 @@ Use that if you get YAML related error.</source>
 <context>
     <name>settingsWindow</name>
     <message>
-        <location filename="../manuskript/settingsWindow.py" line="598"/>
+        <location filename="../manuskript/settingsWindow.py" line="647"/>
         <source>New status</source>
         <translation>Новый статус</translation>
     </message>
     <message>
-        <location filename="../manuskript/settingsWindow.py" line="619"/>
+        <location filename="../manuskript/settingsWindow.py" line="668"/>
         <source>New label</source>
         <translation>Новая метка</translation>
     </message>
     <message>
-        <location filename="../manuskript/settingsWindow.py" line="655"/>
+        <location filename="../manuskript/settingsWindow.py" line="704"/>
         <source>newtheme</source>
         <translation>Новая тема</translation>
     </message>
     <message>
-        <location filename="../manuskript/settingsWindow.py" line="665"/>
+        <location filename="../manuskript/settingsWindow.py" line="714"/>
         <source>New theme</source>
         <translation>Новая тема</translation>
     </message>
     <message>
-        <location filename="../manuskript/settingsWindow.py" line="697"/>
+        <location filename="../manuskript/settingsWindow.py" line="746"/>
         <source> (read-only)</source>
         <translation> (только чтение)</translation>
+    </message>
+    <message>
+        <location filename="../manuskript/settingsWindow.py" line="507"/>
+        <source>Open Image</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../manuskript/settingsWindow.py" line="507"/>
+        <source>Image files (*.jpg; *.jpeg; *.png)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../manuskript/settingsWindow.py" line="523"/>
+        <source>Error</source>
+        <translation type="unfinished">Ошибка</translation>
+    </message>
+    <message>
+        <location filename="../manuskript/settingsWindow.py" line="520"/>
+        <source>Unable to load selected file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../manuskript/settingsWindow.py" line="523"/>
+        <source>Unable to add selected image:
+{}</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3951,7 +4031,7 @@ Use that if you get YAML related error.</source>
 <context>
     <name>textEditView</name>
     <message>
-        <location filename="../manuskript/ui/views/textEditView.py" line="324"/>
+        <location filename="../manuskript/ui/views/textEditView.py" line="327"/>
         <source>Various</source>
         <translation>Различные</translation>
     </message>
@@ -4050,27 +4130,27 @@ Use that if you get YAML related error.</source>
         <translation>Пустые</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="203"/>
+        <location filename="../manuskript/ui/welcome.py" line="224"/>
         <source>Novel</source>
         <translation>Роман</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="208"/>
+        <location filename="../manuskript/ui/welcome.py" line="229"/>
         <source>Novella</source>
         <translation>Повесть</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="213"/>
+        <location filename="../manuskript/ui/welcome.py" line="234"/>
         <source>Short Story</source>
         <translation>Короткий рассказ</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="225"/>
+        <location filename="../manuskript/ui/welcome.py" line="246"/>
         <source>Research paper</source>
         <translation>Научная статья</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="386"/>
+        <location filename="../manuskript/ui/welcome.py" line="407"/>
         <source>Demo projects</source>
         <translation>Демонстрационные проекты</translation>
     </message>
@@ -4082,7 +4162,7 @@ Use that if you get YAML related error.</source>
     <message>
         <location filename="../manuskript/ui/welcome_ui.ui" line="190"/>
         <source>Add word count</source>
-        <translation type="unfinished">Добавить счетчик слов</translation>
+        <translation>Добавить количество слов</translation>
     </message>
     <message>
         <location filename="../manuskript/ui/welcome_ui.ui" line="213"/>
@@ -4105,147 +4185,147 @@ Use that if you get YAML related error.</source>
         <translation>Создать</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="143"/>
+        <location filename="../manuskript/ui/welcome.py" line="157"/>
         <source>Open project</source>
         <translation>Открыть проект</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="143"/>
+        <location filename="../manuskript/ui/welcome.py" line="157"/>
         <source>Manuskript project (*.msk);;All files (*)</source>
         <translation>Манускрипт проект (*.msk);;Все файлы (*)</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="154"/>
+        <location filename="../manuskript/ui/welcome.py" line="171"/>
         <source>Save project as...</source>
         <translation>Сохранить проект как...</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="175"/>
+        <location filename="../manuskript/ui/welcome.py" line="195"/>
         <source>Manuskript project (*.msk)</source>
         <translation>Манускрипт проект (*.msk)</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="169"/>
+        <location filename="../manuskript/ui/welcome.py" line="187"/>
         <source>Manuskript</source>
         <translation>Манускрипт</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="175"/>
+        <location filename="../manuskript/ui/welcome.py" line="195"/>
         <source>Create New Project</source>
         <translation>Создать новый проект</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="186"/>
+        <location filename="../manuskript/ui/welcome.py" line="207"/>
         <source>Warning</source>
         <translation>Внимание</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="186"/>
+        <location filename="../manuskript/ui/welcome.py" line="207"/>
         <source>Overwrite existing project {} ?</source>
         <translation>Перезаписать существующий проект {} ?</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="202"/>
+        <location filename="../manuskript/ui/welcome.py" line="223"/>
         <source>Empty fiction</source>
-        <translation>Пустая литература</translation>
+        <translation>Чистый лист</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="424"/>
+        <location filename="../manuskript/ui/welcome.py" line="445"/>
         <source>Chapter</source>
         <translation>Глава</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="425"/>
+        <location filename="../manuskript/ui/welcome.py" line="446"/>
         <source>Scene</source>
         <translation>Сцена</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="217"/>
+        <location filename="../manuskript/ui/welcome.py" line="238"/>
         <source>Trilogy</source>
         <translation>Трилогия</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="217"/>
+        <location filename="../manuskript/ui/welcome.py" line="238"/>
         <source>Book</source>
         <translation>Книга</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="225"/>
+        <location filename="../manuskript/ui/welcome.py" line="246"/>
         <source>Section</source>
         <translation>Раздел</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="224"/>
+        <location filename="../manuskript/ui/welcome.py" line="245"/>
         <source>Empty non-fiction</source>
         <translation>Пустая научная литература</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="285"/>
+        <location filename="../manuskript/ui/welcome.py" line="306"/>
         <source>words each.</source>
-        <translation>слова каждого.</translation>
+        <translation>слов каждый.</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="288"/>
+        <location filename="../manuskript/ui/welcome.py" line="309"/>
         <source>of</source>
         <translation>из</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="312"/>
+        <location filename="../manuskript/ui/welcome.py" line="333"/>
         <source>Text</source>
         <translation>Текст</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="315"/>
+        <location filename="../manuskript/ui/welcome.py" line="336"/>
         <source>Something</source>
         <translation>Что-то</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="352"/>
+        <location filename="../manuskript/ui/welcome.py" line="373"/>
         <source>&lt;b&gt;Total:&lt;/b&gt; {} words (~ {} pages)</source>
         <translation>&lt;b&gt;Итого:&lt;/b&gt; {} слова (~ {} страниц)</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="373"/>
+        <location filename="../manuskript/ui/welcome.py" line="394"/>
         <source>Fiction</source>
         <translation>Художественная литература</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="379"/>
+        <location filename="../manuskript/ui/welcome.py" line="400"/>
         <source>Non-fiction</source>
         <translation>Научно-популярные</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="422"/>
+        <location filename="../manuskript/ui/welcome.py" line="443"/>
         <source>Idea</source>
         <translation>Идея</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="423"/>
+        <location filename="../manuskript/ui/welcome.py" line="444"/>
         <source>Note</source>
         <translation>Заметка</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="426"/>
+        <location filename="../manuskript/ui/welcome.py" line="447"/>
         <source>Research</source>
         <translation>Исследования</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="434"/>
+        <location filename="../manuskript/ui/welcome.py" line="455"/>
         <source>TODO</source>
         <translation>Список дел</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="435"/>
+        <location filename="../manuskript/ui/welcome.py" line="456"/>
         <source>First draft</source>
         <translation>Первый черновик</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="436"/>
+        <location filename="../manuskript/ui/welcome.py" line="457"/>
         <source>Second draft</source>
         <translation>Второй черновик</translation>
     </message>
     <message>
-        <location filename="../manuskript/ui/welcome.py" line="437"/>
+        <location filename="../manuskript/ui/welcome.py" line="458"/>
         <source>Final</source>
         <translation>Окончательный</translation>
     </message>
@@ -4460,7 +4540,7 @@ Use that if you get YAML related error.</source>
     <message>
         <location filename="../manuskript/models/worldModel.py" line="246"/>
         <source>Natural resources</source>
-        <translation type="unfinished"></translation>
+        <translation>Природные ресурсы</translation>
     </message>
 </context>
 </TS>

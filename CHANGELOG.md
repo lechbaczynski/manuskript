@@ -1,5 +1,103 @@
 # Change Log
 
+## [0.9.0](https://github.com/olivierkes/manuskript/tree/0.9.0) (2019-04-04)
+
+[Full Changelog](https://github.com/olivierkes/manuskript/compare/0.8.0...0.9.0)
+
+**Implemented enhancements:**
+
+- Fullscreen editor suggestions [\#527](https://github.com/olivierkes/manuskript/issues/527)
+- \[Feature Request\] Keyboard shortcuts in Full-Screen mode [\#444](https://github.com/olivierkes/manuskript/issues/444)
+- \[Feature Request\] Add Ability to Add Image When Creating Fullscreen Theme [\#399](https://github.com/olivierkes/manuskript/issues/399)
+- Making Fullscreen Mode Great Again [\#234](https://github.com/olivierkes/manuskript/issues/234)
+
+**Fixed bugs:**
+
+- Crash when previewing malformed regular expression when compiling [\#488](https://github.com/olivierkes/manuskript/issues/488)
+- Spellcheck On/Off setting ignored / Manuskript unresponsive [\#474](https://github.com/olivierkes/manuskript/issues/474)
+- Wrong codepage for import causes crash [\#470](https://github.com/olivierkes/manuskript/issues/470)
+- Full-screen mode right-click menu black text on black background [\#440](https://github.com/olivierkes/manuskript/issues/440)
+- Application language still the same after changing it in the settings. [\#411](https://github.com/olivierkes/manuskript/issues/411)
+
+**Closed issues:**
+
+- Python issues? lxml [\#541](https://github.com/olivierkes/manuskript/issues/541)
+- Cannot open a project. [\#529](https://github.com/olivierkes/manuskript/issues/529)
+- Corrupted Project File Crashes When Opening.  [\#522](https://github.com/olivierkes/manuskript/issues/522)
+- Specific document suddenly won't open [\#502](https://github.com/olivierkes/manuskript/issues/502)
+- trying to get pandoc to work manuskript 0.8.0 Win10 64 [\#475](https://github.com/olivierkes/manuskript/issues/475)
+- Editor does not show text [\#472](https://github.com/olivierkes/manuskript/issues/472)
+- Application crashes when trying to save "…" [\#461](https://github.com/olivierkes/manuskript/issues/461)
+- Feature Request: script writing interface for manuskript  [\#435](https://github.com/olivierkes/manuskript/issues/435)
+- Chinese translation filename suffix [\#428](https://github.com/olivierkes/manuskript/issues/428)
+
+**Merged pull requests:**
+
+- Fix color scheme of fullscreen editor [\#539](https://github.com/olivierkes/manuskript/pull/539) ([kakaroto](https://github.com/kakaroto))
+- Directory entries in ZIP break loading code [\#531](https://github.com/olivierkes/manuskript/pull/531) ([worstje](https://github.com/worstje))
+- Providing a suitable icon for consumption by Windows operating systems [\#530](https://github.com/olivierkes/manuskript/pull/530) ([worstje](https://github.com/worstje))
+- Ensure text file open methods use utf-8 encoding [\#515](https://github.com/olivierkes/manuskript/pull/515) ([gedakc](https://github.com/gedakc))
+- Fix crash when right-clicking twice on fullscreen panel in Windows 10 [\#514](https://github.com/olivierkes/manuskript/pull/514) ([kakaroto](https://github.com/kakaroto))
+- Add support for IPython Jupyter QT Console as a debugging aid [\#513](https://github.com/olivierkes/manuskript/pull/513) ([kakaroto](https://github.com/kakaroto))
+- Fix background of popup menus that were transparent \(black\) [\#512](https://github.com/olivierkes/manuskript/pull/512) ([kakaroto](https://github.com/kakaroto))
+- Add snap build and package [\#511](https://github.com/olivierkes/manuskript/pull/511) ([tomwardill](https://github.com/tomwardill))
+- Add ability to add new background images through UI. [\#510](https://github.com/olivierkes/manuskript/pull/510) ([kakaroto](https://github.com/kakaroto))
+- Fullscreen panels improvements [\#509](https://github.com/olivierkes/manuskript/pull/509) ([kakaroto](https://github.com/kakaroto))
+- Fix corkView background image on Windows [\#508](https://github.com/olivierkes/manuskript/pull/508) ([kakaroto](https://github.com/kakaroto))
+- Do not default spellcheck to True for new editor views [\#506](https://github.com/olivierkes/manuskript/pull/506) ([kakaroto](https://github.com/kakaroto))
+- Set editor theme stylesheet to QTextEdit only. [\#504](https://github.com/olivierkes/manuskript/pull/504) ([kakaroto](https://github.com/kakaroto))
+- Fix fullscreen editor's myScrollBar delayed destruction causing a crash [\#503](https://github.com/olivierkes/manuskript/pull/503) ([kakaroto](https://github.com/kakaroto))
+- 2nd try to fix macOS X blank screen when leaving fullscreen editor mode [\#495](https://github.com/olivierkes/manuskript/pull/495) ([gedakc](https://github.com/gedakc))
+- Fix crash when right clicking a word in editor and enchant is not installed [\#492](https://github.com/olivierkes/manuskript/pull/492) ([kakaroto](https://github.com/kakaroto))
+- Don't crash if a typo is made in the exporter's regular expression. [\#486](https://github.com/olivierkes/manuskript/pull/486) ([kakaroto](https://github.com/kakaroto))
+- Fix crash when previewing pandoc HTML with QTextEdit as web renderer… [\#485](https://github.com/olivierkes/manuskript/pull/485) ([kakaroto](https://github.com/kakaroto))
+- Fix crash when 7 pound signs are written alone on a line. [\#484](https://github.com/olivierkes/manuskript/pull/484) ([kakaroto](https://github.com/kakaroto))
+- Try to fix macOS X blank screen when leaving editor fullscreen mode [\#482](https://github.com/olivierkes/manuskript/pull/482) ([gedakc](https://github.com/gedakc))
+- Fix wrong codepage crash on import with Windows 10 [\#478](https://github.com/olivierkes/manuskript/pull/478) ([gedakc](https://github.com/gedakc))
+- Spelling: Manuscript, may have to be restarted [\#454](https://github.com/olivierkes/manuskript/pull/454) ([comradekingu](https://github.com/comradekingu))
+- Chinese translation [\#434](https://github.com/olivierkes/manuskript/pull/434) ([lingsamuel](https://github.com/lingsamuel))
+- fix translator [\#433](https://github.com/olivierkes/manuskript/pull/433) ([lingsamuel](https://github.com/lingsamuel))
+- Remember last accessed directory [\#431](https://github.com/olivierkes/manuskript/pull/431) ([lingsamuel](https://github.com/lingsamuel))
+- translation suffix, change translation load order [\#430](https://github.com/olivierkes/manuskript/pull/430) ([lingsamuel](https://github.com/lingsamuel))
+
+## [0.8.0](https://github.com/olivierkes/manuskript/tree/0.8.0) (2018-12-05)
+[Full Changelog](https://github.com/olivierkes/manuskript/compare/0.7.0...0.8.0)
+
+**Fixed bugs:**
+
+- Snowflake Method option is greyed out. [\#419](https://github.com/olivierkes/manuskript/issues/419)
+- Plots bounce around main, secondary, and minor -- unsatisfactory solution? [\#404](https://github.com/olivierkes/manuskript/issues/404)
+- Segmentation fault on import [\#402](https://github.com/olivierkes/manuskript/issues/402)
+- "Corrupted" settings and impossibility to start [\#377](https://github.com/olivierkes/manuskript/issues/377)
+- Resolution step deleting itself on pressing Ctrl + Backspace [\#375](https://github.com/olivierkes/manuskript/issues/375)
+- Develop Branch Crashes in Outline View [\#355](https://github.com/olivierkes/manuskript/issues/355)
+- Export crashes, because of encoding to 1250 [\#331](https://github.com/olivierkes/manuskript/issues/331)
+- pandoc v2 has deprecated some options and extensions so manuskript is giving error. [\#304](https://github.com/olivierkes/manuskript/issues/304)
+- Compile Issue for Pandoc Formats - pandoc.exe incorrect [\#186](https://github.com/olivierkes/manuskript/issues/186)
+
+**Closed issues:**
+
+- Problems with running from 0.7.0 pyinstaller package on mac os x 10.13 [\#386](https://github.com/olivierkes/manuskript/issues/386)
+- Old bugs in current version 0.6.0 \(with crosslinks and details\) [\#371](https://github.com/olivierkes/manuskript/issues/371)
+- pt\_PT translation and Weblate [\#408](https://github.com/olivierkes/manuskript/issues/408)
+- Italian translation [\#395](https://github.com/olivierkes/manuskript/issues/395)
+- Snowflake view mode always disabled [\#45](https://github.com/olivierkes/manuskript/issues/45)
+
+**Merged pull requests:**
+
+- Remove unimplemented snowflake view mode menu entry [\#424](https://github.com/olivierkes/manuskript/pull/424) ([gedakc](https://github.com/gedakc))
+- Increase Travis CI macOS X build minimum to Sierra \(10.12\) [\#423](https://github.com/olivierkes/manuskript/pull/423) ([gedakc](https://github.com/gedakc))
+- Remove plot resolution step key bindings Ctrl+Enter and Ctrl+Backspace [\#420](https://github.com/olivierkes/manuskript/pull/420) ([gedakc](https://github.com/gedakc))
+- Add support for pandoc version 2 [\#418](https://github.com/olivierkes/manuskript/pull/418) ([gedakc](https://github.com/gedakc))
+- Prevent build and deploy steps for linux on Travis CI [\#414](https://github.com/olivierkes/manuskript/pull/414) ([gedakc](https://github.com/gedakc))
+- Limit pyinstaller package build and deploy to osx on Travis CI [\#413](https://github.com/olivierkes/manuskript/pull/413) ([gedakc](https://github.com/gedakc))
+- Fix segmentation fault on import [\#412](https://github.com/olivierkes/manuskript/pull/412) ([gedakc](https://github.com/gedakc))
+- Fix pytest warnings [\#407](https://github.com/olivierkes/manuskript/pull/407) ([gedakc](https://github.com/gedakc))
+- Fix plot importance changes if delete earlier plot and click other plots [\#406](https://github.com/olivierkes/manuskript/pull/406) ([gedakc](https://github.com/gedakc))
+- Enable testing in TravisCI [\#403](https://github.com/olivierkes/manuskript/pull/403) ([katafrakt](https://github.com/katafrakt))
+- Fix Travis CI build for Mac OSX - pip3: command not found [\#400](https://github.com/olivierkes/manuskript/pull/400) ([gedakc](https://github.com/gedakc))
+- Moved incorrectly placed parameter to correct place. Closes \#377. [\#389](https://github.com/olivierkes/manuskript/pull/389) ([RiderExMachina](https://github.com/RiderExMachina))
+
 ## [0.7.0](https://github.com/olivierkes/manuskript/tree/0.7.0) (2018-08-15)
 [Full Changelog](https://github.com/olivierkes/manuskript/compare/0.6.0...0.7.0)
 
@@ -7,21 +105,25 @@
 
 - Display images as tooltip [\#270](https://github.com/olivierkes/manuskript/issues/270)
 - Focus mode [\#259](https://github.com/olivierkes/manuskript/issues/259)
+- Add markdown support of other tabs [\#232](https://github.com/olivierkes/manuskript/issues/232)
+- Translation automation [\#228](https://github.com/olivierkes/manuskript/issues/228)
 - Add: command line parameter to open project [\#223](https://github.com/olivierkes/manuskript/issues/223)
 - Moving World Items [\#219](https://github.com/olivierkes/manuskript/issues/219)
 - Make http links clickable in markdown editor [\#215](https://github.com/olivierkes/manuskript/issues/215)
+- Feature suggestion: Typewriter scrolling. [\#175](https://github.com/olivierkes/manuskript/issues/175)
 - Request for Bullets and Numbering option [\#123](https://github.com/olivierkes/manuskript/issues/123)
 - Markdown syntax highlighting [\#13](https://github.com/olivierkes/manuskript/issues/13)
 - Add moving World Items [\#298](https://github.com/olivierkes/manuskript/pull/298) ([JackXVII](https://github.com/JackXVII))
 
 **Fixed bugs:**
 
+- Install on MacOsX failed [\#282](https://github.com/olivierkes/manuskript/issues/282)
 - Crash if Cheatsheet filter term not found and Enter key pressed [\#354](https://github.com/olivierkes/manuskript/issues/354)
 - Overlay status bar prevents access to add/delete world item icons when displaying a message [\#307](https://github.com/olivierkes/manuskript/issues/307)
 - Deleting multiple World items leaves/creates two empty items [\#306](https://github.com/olivierkes/manuskript/issues/306)
 - Underline causes false spelling error [\#283](https://github.com/olivierkes/manuskript/issues/283)
-- Install on MacOsX failed [\#282](https://github.com/olivierkes/manuskript/issues/282)
 - .DS\_Store files let crash Manuskript when opening project [\#281](https://github.com/olivierkes/manuskript/issues/281)
+- Programm killed by Hovereffekt? [\#275](https://github.com/olivierkes/manuskript/issues/275)
 - Spell check is crashing the program [\#273](https://github.com/olivierkes/manuskript/issues/273)
 - Highlight Contrast Problem [\#272](https://github.com/olivierkes/manuskript/issues/272)
 - Segfault when pasting text with focus mode enabled [\#271](https://github.com/olivierkes/manuskript/issues/271)
@@ -39,6 +141,7 @@
 **Closed issues:**
 
 - \[Feature request\] Russian translation [\#358](https://github.com/olivierkes/manuskript/issues/358)
+- Manuskript crashes during save process and "corrupts" the msk-file [\#352](https://github.com/olivierkes/manuskript/issues/352)
 - Add polish translation  [\#289](https://github.com/olivierkes/manuskript/issues/289)
 - \[Feature request\] Accept first command line argument as project file name to open [\#278](https://github.com/olivierkes/manuskript/issues/278)
 - Status bar distracting when saving with current develop branch [\#262](https://github.com/olivierkes/manuskript/issues/262)
@@ -48,9 +151,9 @@
 
 **Merged pull requests:**
 
-- Add automated script to create RPM package [\#368](https://github.com/olivierkes/manuskript/pull/368) ([gedakc](https://github.com/gedakc))
 - Fix Travix CI build error on OSX installing python3 [\#338](https://github.com/olivierkes/manuskript/pull/338) ([gedakc](https://github.com/gedakc))
 - Use QPersistentModelIndex in textEditView [\#308](https://github.com/olivierkes/manuskript/pull/308) ([JackXVII](https://github.com/JackXVII))
+- Add automated script to create RPM package [\#368](https://github.com/olivierkes/manuskript/pull/368) ([gedakc](https://github.com/gedakc))
 - Build MacOS release with XCode 7.3 image [\#287](https://github.com/olivierkes/manuskript/pull/287) ([katafrakt](https://github.com/katafrakt))
 
 ## [0.6.0](https://github.com/olivierkes/manuskript/tree/0.6.0) (2017-11-29)
@@ -58,9 +161,6 @@
 
 **Implemented enhancements:**
 
-- Add markdown support of other tabs [\#232](https://github.com/olivierkes/manuskript/issues/232)
-- Translation automation [\#228](https://github.com/olivierkes/manuskript/issues/228)
-- Feature suggestion: Typewriter scrolling. [\#175](https://github.com/olivierkes/manuskript/issues/175)
 - Adds: document menu \(copy, paste, delete, duplicate, split, merge, etc.\) [\#229](https://github.com/olivierkes/manuskript/issues/229)
 - Add transparent text editor [\#216](https://github.com/olivierkes/manuskript/issues/216)
 - Add Mind Map Import [\#208](https://github.com/olivierkes/manuskript/issues/208)
@@ -145,6 +245,7 @@
 - In revision mode text, selecting group doesn't load text-preferences right. [\#51](https://github.com/olivierkes/manuskript/issues/51)
 - Undo/redo works in some text areas but not others [\#34](https://github.com/olivierkes/manuskript/issues/34)
 - Some bugs in Windows XP and Ubuntu 15.1 [\#25](https://github.com/olivierkes/manuskript/issues/25)
+- Stylesheet error on windows [\#18](https://github.com/olivierkes/manuskript/issues/18)
 - Manuskript fails to load last state of panels [\#14](https://github.com/olivierkes/manuskript/issues/14)
 - Multiple selections of items sometimes gets Notes/references field to be ereased [\#10](https://github.com/olivierkes/manuskript/issues/10)
 
@@ -185,7 +286,6 @@
 - Export into text? \[feature suggestion\] [\#80](https://github.com/olivierkes/manuskript/issues/80)
 - Default background for fullscreen mode is unusable \[minor\] [\#79](https://github.com/olivierkes/manuskript/issues/79)
 - Documention Needed [\#69](https://github.com/olivierkes/manuskript/issues/69)
-- Snowflage view mode always disable [\#45](https://github.com/olivierkes/manuskript/issues/45)
 - Compile dialog issues: cancel doesn't seem to do anything, default ouput directory wrong [\#77](https://github.com/olivierkes/manuskript/issues/77)
 - OS X app with Platypus [\#28](https://github.com/olivierkes/manuskript/issues/28)
 

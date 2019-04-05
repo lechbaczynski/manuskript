@@ -321,14 +321,14 @@ class mainEditor(QWidget, Ui_mainEditor):
             del p
             self.lblRedacProgress.setPixmap(self.px)
             self.lblRedacWC.setText(self.tr("({} chars) {}  words / {} ").format(
-                    locale.format("%d", chars, grouping=True),
-                    locale.format("%d", wc, grouping=True),
-                    locale.format("%d", goal, grouping=True)))
+                    locale.format_string("%d", chars, grouping=True),
+                    locale.format_string("%d", wc, grouping=True),
+                    locale.format_string("%d", goal, grouping=True)))
         else:
             self.lblRedacProgress.hide()
             self.lblRedacWC.setText(self.tr("({} chars) {} words ").format(
-                    locale.format("%d", chars, grouping=True),
-                    locale.format("%d", wc, grouping=True)))
+                    locale.format_string("%d", chars, grouping=True),
+                    locale.format_string("%d", wc, grouping=True)))
 
     ###############################################################################
     # VIEWS

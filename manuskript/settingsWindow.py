@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # --!-- coding: utf8 --!--
 import os
+import shutil
 from collections import OrderedDict
 
 from PyQt5.QtCore import QSize, QSettings, QRegExp, QTranslator, QObject
@@ -8,7 +9,7 @@ from PyQt5.QtCore import Qt, QTimer
 from PyQt5.QtGui import QIntValidator, QIcon, QFont, QColor, QPixmap, QStandardItem, QPainter
 from PyQt5.QtGui import QStyleHints
 from PyQt5.QtWidgets import QStyleFactory, QWidget, QStyle, QColorDialog, QListWidgetItem, QMessageBox
-from PyQt5.QtWidgets import qApp
+from PyQt5.QtWidgets import qApp, QFileDialog
 
 # Spell checker support
 from manuskript import settings
@@ -73,9 +74,13 @@ class settingsWindow(QWidget, Ui_Settings):
         self.cmbTranslation.clear()
         tr = OrderedDict()
         tr["English"] = ""
+        tr["Arabic (Saudi Arabia)"] = "manuskript_ar_SA.qm"
         tr["Deutsch"] = "manuskript_de.qm"
         tr["Español"] = "manuskript_es.qm"
         tr["Français"] = "manuskript_fr.qm"
+        tr["Hungarian"] = "manuskript_hu.qm"
+        tr["Indonesian"] = "manuskript_id.qm"
+        tr["Italian"] = "manuskript_it.qm"
         tr["Norwegian Bokmål"] = "manuskript_nb_NO.qm"
         tr["Dutch"] = "manuskript_nl.qm"
         tr["Polish"] = "manuskript_pl.qm"
@@ -83,7 +88,8 @@ class settingsWindow(QWidget, Ui_Settings):
         tr["Portuguese (Portugal)"] = "manuskript_pt_PT.qm"
         tr["Russian"] = "manuskript_ru.qm"
         tr["Svenska"] = "manuskript_sv.qm"
-        tr["Chinese"] = "manuskript_zh.qm"
+        tr["Ukranian"] = "manuskript_uk.qm"
+        tr["Chinese (Simplified)"] = "manuskript_zh_CN.qm"
         self.translations = tr
 
         for name in tr:
@@ -455,12 +461,24 @@ class settingsWindow(QWidget, Ui_Settings):
         self.btnCorkColor.setStyleSheet("background:{};".format(settings.corkBackground["color"]))
 
     def setCorkBackground(self, i):
+        # Check if combobox was reset
+        if i == -1:
+            return
+
         img = self.cmbCorkImage.itemData(i)
         img = os.path.basename(img)
         if img:
             settings.corkBackground["image"] = img
         else:
-            settings.corkBackground["image"] = ""
+            txt = self.cmbCorkImage.itemText(i)
+            if txt == "":
+                settings.corkBackground["image"] = ""
+            else:
+                img = self.addBackgroundImage()
+                if img:
+                    self.populatesCmbBackgrounds(self.cmbCorkImage)
+                    settings.corkBackground["image"] = img
+                self.setCorkImageDefault()
         # Update Cork view
         self.mw.mainEditor.updateCorkBackground()
 
@@ -479,7 +497,33 @@ class settingsWindow(QWidget, Ui_Settings):
                     px = QPixmap(os.path.join(p, l)).scaled(128, 64, Qt.KeepAspectRatio)
                     cmb.addItem(QIcon(px), "", os.path.join(p, l))
 
+        cmb.addItem(QIcon.fromTheme("list-add"), " ", "")
         cmb.setIconSize(QSize(128, 64))
+
+    def addBackgroundImage(self):
+        lastDirectory = self.mw.welcome.getLastAccessedDirectory()
+
+        """File dialog that request an existing file. For opening an image."""
+        filename = QFileDialog.getOpenFileName(self,
+                                               self.tr("Open Image"),
+                                               lastDirectory,
+                                               self.tr("Image files (*.jpg; *.jpeg; *.png)"))[0]
+        if filename:
+            try:
+                px = QPixmap()
+                valid = px.load(filename)
+                del px
+                if valid:
+                    shutil.copy(filename, writablePath("resources/backgrounds"))
+                    return os.path.basename(filename)
+                else:
+                    QMessageBox.warning(self, self.tr("Error"),
+                                        self.tr("Unable to load selected file"))
+            except Exception as e:
+                QMessageBox.warning(self, self.tr("Error"),
+                                    self.tr("Unable to add selected image:\n{}").format(str(e)))
+        return None
+                
 
     def setCorkImageDefault(self):
         if settings.corkBackground["image"] != "":
@@ -865,12 +909,26 @@ class settingsWindow(QWidget, Ui_Settings):
         self.timerUpdateFSPreview.start()
 
     def updateThemeBackground(self, i):
-        img = self.cmbCorkImage.itemData(i)
+        # Check if combobox was reset
+        if i == -1:
+            return
+
+        img = self.cmbThemeBackgroundImage.itemData(i)
 
         if img:
             self._themeData["Background/ImageFile"] = os.path.split(img)[1]
         else:
-            self._themeData["Background/ImageFile"] = ""
+            txt = self.cmbThemeBackgroundImage.itemText(i)
+            if txt == "":
+                self._themeData["Background/ImageFile"] = ""
+            else:
+                img = self.addBackgroundImage()
+                if img:
+                    self.populatesCmbBackgrounds(self.cmbThemeBackgroundImage)
+                    self._themeData["Background/ImageFile"] = img
+                i = self.cmbThemeBackgroundImage.findData(self._themeData["Background/ImageFile"], flags=Qt.MatchContains)
+                if i != -1:
+                    self.cmbThemeBackgroundImage.setCurrentIndex(i)
         self.updatePreview()
 
     def getThemeColor(self, key):

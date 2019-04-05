@@ -2,7 +2,7 @@
 # --!-- coding: utf8 --!--
 import re
 from PyQt5.QtGui import QFont, QTextCharFormat
-from PyQt5.QtWidgets import QPlainTextEdit, qApp, QFrame, QFileDialog
+from PyQt5.QtWidgets import QPlainTextEdit, qApp, QFrame, QFileDialog, QMessageBox
 
 from manuskript.exporter.basic import basicFormat
 from manuskript.functions import mainWindow
@@ -41,7 +41,12 @@ class plainText(basicFormat):
 
     def output(self, settingsWidget):
         settings = settingsWidget.getSettings()
-        return self.concatenate(mainWindow().mdlOutline.rootItem, settings)
+        try:
+            return self.concatenate(mainWindow().mdlOutline.rootItem, settings)
+        except re.error as e:
+            QMessageBox.warning(mainWindow().dialog, qApp.translate("Export", "Error"),
+                                qApp.translate("Export", "Error processing regular expression : \n{}").format(str(e)))
+            return ""
 
     def getExportFilename(self, settingsWidget, varName=None, filter=None):
 
@@ -60,7 +65,7 @@ class plainText(basicFormat):
             filename = ""
 
         filename, filter = QFileDialog.getSaveFileName(settingsWidget.parent(),
-                                                       caption=qApp.translate("Export", "Chose output file..."),
+                                                       caption=qApp.translate("Export", "Choose output file..."),
                                                        filter=filter,
                                                        directory=filename)
 

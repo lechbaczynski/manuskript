@@ -172,10 +172,8 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.actModeGroup = QActionGroup(self)
         self.actModeSimple.setActionGroup(self.actModeGroup)
         self.actModeFiction.setActionGroup(self.actModeGroup)
-        self.actModeSnowflake.setActionGroup(self.actModeGroup)
         self.actModeSimple.triggered.connect(self.setViewModeSimple)
         self.actModeFiction.triggered.connect(self.setViewModeFiction)
-        self.actModeSnowflake.setEnabled(False)
 
         # Main Menu:: Tool
         self.actToolFrequency.triggered.connect(self.frequencyAnalyzer)
@@ -417,8 +415,8 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                 PlotStep.meta, QHeaderView.ResizeToContents)
         self.lstSubPlots.verticalHeader().hide()
 
-    def updatePlotImportance(self, ID):
-        imp = self.mdlPlots.getPlotImportanceByID(ID)
+    def updatePlotImportance(self, row):
+        imp = self.mdlPlots.getPlotImportanceByRow(row)
         self.sldPlotImportance.setValue(int(imp))
 
     def changeCurrentSubPlot(self, index):
@@ -552,9 +550,9 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         If ``loadFromFile`` is False, then it does not load datas from file.
         It assumes that the datas have been populated in a different way."""
         if loadFromFile and not os.path.exists(project):
-            print(self.tr("The file {} does not exist. Try again.").format(project))
+            print(self.tr("The file {} does not exist. Has it been moved or deleted?").format(project))
             F.statusMessage(
-                    self.tr("The file {} does not exist. Try again.", importance=3).format(project))
+                    self.tr("The file {} does not exist. Has it been moved or deleted?").format(project), importance=3)
             return
 
         if loadFromFile:

@@ -82,7 +82,15 @@ class outlineItem(abstractItem):
 
     def charCount(self):
         return self._data.get(self.enum.charCount, 0)
+    def __str__(self):
+        return "{id}: {folder}{title}{children}".format(
+            id=self.ID(),
+            folder="*" if self.isFolder() else "",
+            title=self.data(self.enum.title),
+            children="" if self.isText() else "({})".format(self.childCount())
+            )
 
+    __repr__ = __str__
 
     #######################################################################
     # Data
@@ -232,12 +240,12 @@ class outlineItem(abstractItem):
             wc = 0
         if goal:
             return qApp.translate("outlineItem", "{} words / {} ({})").format(
-                    locale.format("%d", wc, grouping=True),
-                    locale.format("%d", goal, grouping=True),
+                    locale.format_string("%d", wc, grouping=True),
+                    locale.format_string("%d", goal, grouping=True),
                     "{}%".format(str(int(progress * 100))))
         else:
             return qApp.translate("outlineItem", "{} words").format(
-                    locale.format("%d", wc, grouping=True))
+                    locale.format_string("%d", wc, grouping=True))
 
     #######################################################################
     # Tools: split and merge

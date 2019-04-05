@@ -18,12 +18,12 @@ from manuskript import functions as F
 class MDEditView(textEditView):
 
     blockquoteRegex = QRegExp("^ {0,3}(>\\s*)+")
-    listRegex = QRegExp("^(\\s*)([+*-]|([0-9a-z])+([.\)]))(\\s+)")
+    listRegex = QRegExp(r"^(\s*)([+*-]|([0-9a-z])+([.\)]))(\s+)")
     inlineLinkRegex = QRegExp("\\[([^\n]+)\\]\\(([^\n]+)\\)")
     imageRegex = QRegExp("!\\[([^\n]*)\\]\\(([^\n]+)\\)")
     automaticLinkRegex = QRegExp("(<([a-zA-Z]+\\:[^\n]+)>)|(<([^\n]+@[^\n]+)>)")
 
-    def __init__(self, parent=None, index=None, html=None, spellcheck=True,
+    def __init__(self, parent=None, index=None, html=None, spellcheck=None,
                  highlighting=False, dict="", autoResize=False):
         textEditView.__init__(self, parent, index, html, spellcheck,
                               highlighting=True, dict=dict,
@@ -342,15 +342,15 @@ class MDEditView(textEditView):
     def clearedFormat(self, text):
         # FIXME: clear also block formats
         for reg, rep, flags in [
-            ("\*\*(.*?)\*\*", "\\1", None), # bold
+            (r"\*\*(.*?)\*\*", "\\1", None), # bold
             ("__(.*?)__", "\\1", None), # bold
-            ("\*(.*?)\*", "\\1", None), # emphasis
+            (r"\*(.*?)\*", "\\1", None), # emphasis
             ("_(.*?)_", "\\1", None), # emphasis
             ("`(.*?)`", "\\1", None), # verbatim
             ("~~(.*?)~~", "\\1", None), # strike
-            ("\^(.*?)\^", "\\1", None), # superscript
+            (r"\^(.*?)\^", "\\1", None), # superscript
             ("~(.*?)~", "\\1", None), # subscript
-            ("<!--\s*(.*?)\s*-->", "\\1", re.S), # comments
+            (r"<!--\s*(.*?)\s*-->", "\\1", re.S), # comments
 
             # LINES OR BLOCKS
             (r"^#*\s*(.+?)\s*", "\\1", re.M), # ATX
@@ -394,7 +394,7 @@ class MDEditView(textEditView):
             c.insertText("")
 
         char = "=" if level == 1 else "-"
-        text = re.sub("^#*\s*(.*)\s*#*", "\\1", text)  # Removes #
+        text = re.sub(r"^#*\s*(.*)\s*#*", "\\1", text)  # Removes #
         sub = char * len(text)
         text = text + "\n" + sub
 
@@ -429,7 +429,7 @@ class MDEditView(textEditView):
             self.titleATX(level)
             return
 
-        m = re.match("^(#+)(\s*)(.+)", text)
+        m = re.match(r"^(#+)(\s*)(.+)", text)
         if m:
             pre = m.group(1)
             space = m.group(2)
